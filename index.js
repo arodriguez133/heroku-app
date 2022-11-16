@@ -11,7 +11,7 @@ app.use(express.json());
 
 //underscore is like a dead link> since i'm not using the request object, i'm going to throw in an underscore
 app.use("/api/", (_, res) => {
-    res.json({ data: "API is accounted for" })
+    res.json({ data: "I love Kourtney!" })
 })
 
 app.listen(port, () => {
